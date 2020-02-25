@@ -1,0 +1,15 @@
+﻿<Window x:Class="Client.DialogWindows.AddEntity.AddStage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client.DialogWindows.AddEntity"
+        mc:Ignorable="d"
+        Title="AddStage" Height="179.869" Width="303.96">
+    <Grid Margin="0,0,2,-2">
+        <TextBox x:Name="StageCaption_Tb" HorizontalAlignment="Left" Height="23" Margin="123,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="StageCaption_Lb" Content="Caption" HorizontalAlignment="Left" Margin="22,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Ok_Btn" Content="Ok" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="168,76,0,0" RenderTransformOrigin="0.029,0.576" Click="Ok_Btn_Click"/>
+
+    </Grid>
+</Window>
